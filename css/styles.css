@@ -6,6 +6,8 @@
   --secondary-text-color: #f4f4fd;
   --background-color: #ffffff;
   --dark-background-color: #2e2f42;
+  --main-color-button: #4d5ae5;
+  --background-color-button: #F4F4FD;
 }
 
 .list {
@@ -145,8 +147,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--main-color-button);
+  background: var(--background-color-button)
   /* CORNFLOWER */
   border: 1px solid #e7e9fc;
   border-radius: 4px;
