@@ -146,7 +146,7 @@ border-radius: 4px;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--main-color-button);
-  background: var(--background-color-button)
+  background-color;: var(--background-color-button)
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
