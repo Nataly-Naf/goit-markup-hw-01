@@ -8,6 +8,8 @@
   --dark-background-color: #2e2f42;
   --main-color-button: #4d5ae5;
   --background-color-button: #F4F4FD;
+  --color-logo-add: #2e2f42;
+  --color-logo-add-light: #F4F4FD;
 }
 
 .list {
@@ -62,10 +64,14 @@ body {
   color: #4d5ae5;
 }
 .logo-end {
-  color: #f4f4fd;
+  color: var(--color-logo-add);
 }
 .footer {
   background-color: var(--dark-background-color);
+}
+
+.logo-end-footer{
+  color: var(--color-logo-add-light);
 }
 .menu-link {
   font-weight: 500;
@@ -79,29 +85,19 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.contact-email {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-font-color);
-}
-.contact-email:active,
-.contact-email:hover,
-.contact-email:focus {
-  color: #404bbf;
-}
 
-.contact-phone-number {
+
+
+.contact-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-font-color);
 }
-.contact-phone-number:active,
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contact-link:active,
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 .contacts-list {
@@ -129,6 +125,8 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border: 1px solid #E7E9FC;
+border-radius: 4px;
   cursor: pointer;
 }
 .order-btn:hover,
@@ -149,7 +147,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--main-color-button);
   background: var(--background-color-button)
-  /* CORNFLOWER */
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
