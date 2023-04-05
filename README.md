@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Перше ДЗ
+# goit-markup-hw-02
+Друге ДЗ
